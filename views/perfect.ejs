@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Welcome</title>
+</head>
+<body>
+    <div class="container">
+        <form action="/" method="post">
+            <header>
+                <h3>Register Form</h3>
+            </header>
+            <div class="user-field">
+                <label for="name">Username</label><br>
+                <input type="text" name="name" id="name" required placeholder="maximum characters : 15" maxlength="15">
+            </div>           
+            <div class="user-field">
+                <label for="password">Password</label><br>
+                <input type="password" name="password" id="password" required placeholder="min-8 & max-10" maxlength="10" minlength="8">
+            </div>
+            <div class="user-field">
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" required>
+            </div><br>
+            <div class="user-field">
+                <input type="submit" name="submit" id="submit" value="Register">
+            </div>
+                <a href="/test">Already Registered!</a>
+        </form>
+    </div>
+</body>
+</html>
